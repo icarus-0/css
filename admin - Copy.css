@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+    background-color:rgba(218,165,32);
+    height: 10%;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px rgba(218,165,32);
+    border-top: black solid;
+    
+
+}
+
+.nav h1{
+    color: black;
+    font-family: Oswald;
+    position: absolute ;
+    left: 5%;
+    top: 2%;
+}
+
+
+
+.empviewarea{
+    width: 80%;
+    overflow: hidden;
+    
+    margin: 20px auto;
+    padding: 100px 50px;
+    
+}
+
+.empviewarea ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.empviewarea ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin: 40px 20px 0px 55px;
+}
+
+@media screen and (max-width:1200px){
+    .empviewarea ul li{
+        width: 40%;
+        margin: 40px;
+
+    }
+}
+.profile-card{
+    position: relative;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    
+    box-shadow: 5px 10px 20px rgb(218,165,32) ;
+  
+}
+
+.profile-img img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 30%;
+    border-radius: 100%;
+    
+}
+
+.profile-img{
+    position:relative;
+    height: 90px;
+    background-color: rgb(218,165,32);
+    border-radius: 20px;
+
+}
+
+.profile-desc{
+    padding: 10%;
+}
+
+.viewteam{
+    border: 3px solid blue;
+    
+    padding: 2px 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    
+    
+
+}
+
+.assigndata{
+    border: 3px solid green;
+    
+    padding: 2px 5px;
+    font-size: 10px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+
+}
+.demote{
+    border: 3px solid rgb(192,192,192);
+    
+    padding: 2px 5px;
+    font-size: 10px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+
+.viewteam,.assigndata,.demote{
+    border-radius: 5px;
+}
+
+.nav ul{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 1%;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Oswald;
+    letter-spacing: 1px;
+    font-weight: 250;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+.nav ul li a:hover{
+    background-color: rgba(218,165,32,0.9);
+    color: black;
+    border:rgba(0, 0, 0, 0.5) solid;
+}
